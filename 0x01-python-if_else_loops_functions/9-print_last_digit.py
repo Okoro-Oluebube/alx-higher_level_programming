@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
 def print_last_digit(number):
-    num = number[-1:]
-    print("{:d}".format(num), end="")
+    num = str(number)
+    print("{}".format(num[-1:]), end="")
+    return(num[-1:])
