@@ -7,4 +7,3 @@ for i in range(0, 9):
         if (int(str(i) + str(j)) == int(str(j) + str(i))):
             continue
         print("{:d}{:d}".format(i, j), end=", ")
-
