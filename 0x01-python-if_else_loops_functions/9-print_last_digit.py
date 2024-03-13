@@ -2,5 +2,7 @@
 
 def print_last_digit(number):
     num = str(number)
-    print("{}".format(num[-1:]), end="")
-    return(num[-1:])
+    num = num[-1:]
+    num = int(num)
+    print("{}".format(num), end="")
+    return (num)
