@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 
 def no_c(my_string):
-    j = 0
-    for i in range(0, len(my_string)):
-        my_stringg = " "
-        if my_string[i] == 'c' or my_string[i] == 'C':
+    new_str = ""
+    for i in my_string:
+        if i == 'c' or i == 'C':
             continue
         else:
-            my_stringg[j] = my_string[i]
-            j += 1
-    return (my_stringg)
+            new_str += i
+    return (new_str)
