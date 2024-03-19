@@ -21,5 +21,5 @@ if __name__ == "__main__":
         elif argv[2] == '/':
             print("{} {} {} = {}".format(a, argv[2], b, cal.div(a, b)))
     else:
-        print("Unkown operator. Availavle operators: +, -, * and /")
+        print("Unknown operator. Availavle operators: +, -, * and /")
         sys.exit(1)
