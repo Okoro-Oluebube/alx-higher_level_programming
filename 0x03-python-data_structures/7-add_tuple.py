@@ -23,7 +23,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
                 new_tup += (tuple_a[i] + tuple_b[i]),
         elif j == 1 and k == 1:
             tuple_a += 0,
-            tuple_b += 0;
+            tuple_b += 0,
             for i in range(2):
                 new_tup += (tuple_a[i] + tuple_b[i]),
         elif k == 1:
